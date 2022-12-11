@@ -1,0 +1,49 @@
+[
+    {
+        "name":"Carbonara",
+        
+        "image":"https://www.shutterstock.com/image-photo/carbonara-pizza-bacon-260nw-1078764764.jpg",
+        "price":"350",
+        "size":"SMALL"
+    },
+    {
+        "name":"Paneer Pizza",
+        
+        "image":"https://www.shutterstock.com/image-photo/pizza-paneer-served-wooden-pan-260nw-1635512437.jpg",
+        "price":"550",
+        "size":"MEDIUM"
+    },
+    {
+        "name":"vegies pizza",
+        
+        "image":"https://www.shutterstock.com/image-photo/pizza-vegetarian-on-plate-260nw-176980196.jpg",
+        "price":"1000",
+        "size":"LARGE"
+    },
+    {
+        "name":"Chicken Mushroom",
+        
+        "image":"https://www.shutterstock.com/image-photo/pizza-chicken-tomato-mushrooms-260nw-217660969.jpg",
+        "price":"500",
+        "size":"MEDIUM"
+    },
+    {
+        "name":"Marinara",
+        
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2U8jk_XouKbhL-NvOsjLMVKb-kffu3RyivqJRWDro&s",
+        "price":"300",
+        "size":"SMALL"
+    },
+
+    {
+        "name":"Margherita",
+        
+        "image":"https://media.istockphoto.com/id/1280329631/photo/italian-pizza-margherita-with-tomatoes-and-mozzarella-cheese-on-wooden-cutting-board-close-up.jpg?b=1&s=170667a&w=0&k=20&c=_t83ocY59IayPnspluN99xOM_RQ5ytAMTfXQperbL_I=",
+        "price":"500",
+        "size":"LARGE"
+    }  
+   
+
+
+
+]

@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+           
+
+   
+    border: 2px solid red;
+    border-radius: 30px;
+    width: 100px;
+    background-color: sandybrown;
+    
+}
+.container{
+    border:2px solid black
+}
+a{
+    text-decoration: none;
+    color: white;
+        }
+        img#c1 {
+    height: 35px;
+    width: 48px;
+}
+img#c2 {
+    margin-top: 24px;
+    height: 35px;
+    width: 48px;
+    margin-left: 305px;
+    margin-right: 12px;
+}
+img.card-img-top {
+    margin-top: 27px;
+    height: 110px;
+    width: 200px;
+    margin-left: 308px;
+    margin-right: 31px;
+}
+span {
+    margin-left: 116px;
+    margin-top: -26px;
+}
+h3 {
+    margin-left: 806px;
+}
+a{
+    color:red;
+}
+span#a1 {
+    margin-top: 21px;
+    margin-left: 8px;
+}
+    </style>
+</head>
+<body>
+<%- include("./partials/nav.ejs")%>
+<nav>
+ <a href="/cart">
+    
+ <img id='c1' src="" alt="">
+</a>
+</nav>
+<div class="order">
+    <div style="display:flex">
+        <img id='c2' src="https://cdn-icons-png.flaticon.com/512/126/126083.png" alt="">
+        <h1>Order Summary</h1>
+    </div>
+<% data1.forEach(function(data1){ %>
+    <div class="plist">  
+        <div style="display: flex;align-items: center;">
+        <img src="<%= data1.image%>" class="card-img-top" alt="...">
+      
+            <div>
+            <h1><%= data1.name%></h1>
+            <p><%= data1.size%></p>
+
+    </div>
+    <span>1pcs</span>
+    <span><%= data1.price%></span>
+        <a style="color: brown" href="/deletecart/<%= data1._id%>">Delete</a>
+</div>
+</div>
+</div>
+<div>
+
+
+    <%})%>
+    <div style="display: flex;">
+        <h3>Total Amount : </h3>
+        <span id="a1">RS. 300</span>
+    </div>
+</div>
+<!-- <div class="container">
+    <h1 >Card Empty</h1>
+    <p>You probably haven't ordered pizza yet.
+        TO order a pizza, go to the main page.
+    </p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQImCFIcN54xl1rW05MbU4k2Uwn7GFtFXn0QOGvxbiNNU2WmcrR4O9E83SCaAx_eCLLZfQ&usqp=CAU" alt="">
+    <button><a href="/">Go back</a></button>
+</div>  -->
+
+
+</body>
+</html>
